@@ -1,0 +1,50 @@
+body {
+    font-family: serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+#logo {
+    font-family: cursive;
+}
+
+.pagestart {
+    background-image: url(/images/1.jpg);
+    background-size: cover;
+    resize: both;
+    overflow: auto;
+}
+
+.head {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 20px;
+    border-radius: 25px
+}
+
+.newslettersignup {
+    background-image: url(/images/dawn.jpg);
+    background-size: cover;
+    resize: both;
+    overflow: auto;
+    border-radius: 30px;
+
+}
+
+.contact,
+.projects {
+    background-color: rgba(255, 208, 0, 0.329);
+    border-radius: 0 0 30px 30px;
+}
+
+.worker {
+    border: 5px dotted rgb(255, 208, 0);
+}
+
+.blogs {
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 50px;
+}
